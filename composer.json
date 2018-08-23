@@ -1,0 +1,21 @@
+{
+  "name": "mitsumotocs/mail",
+  "description": "Just another mail sender with a primitive templating mechanism",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joji Mitsumoto",
+      "email": "mitsumotocs@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-0": {
+      "Mail": "src/"
+    }
+  }
+}
